@@ -1,0 +1,7 @@
+include LICENSE
+include README.md
+recursive-include core/static *
+recursive-include core/templates *
+recursive-include core/templatetags *
+global-exclude .git
+global-exclude .gitignore
